@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/item_sp_img"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:src="@drawable/_media_24"/>
+            <TextView
+                android:id="@+id/txtten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laptop"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/txtgia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gia: 25000000"
+                android:textColor="#EF1515"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:src="@drawable/iconnew"/>
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
